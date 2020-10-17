@@ -1,0 +1,9 @@
+package personajes;
+
+/**
+ * Enumeración que se usa para obtener el Estado de una entidad.
+ */
+public enum Estado {
+    ACTIVO,
+    INACTIVO
+}
