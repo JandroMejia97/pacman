@@ -4,6 +4,7 @@ Puedes encontrar los requerimientos en este [enlace](https://docs.google.com/doc
 <img width=600px src="https://drive.google.com/uc?export=view&id=1ACyeZzATsG5V8DxRNyInbr-KCG0osNSd" alt="Diagrama de paquetes">
 
 ## Diagramas de Clases
+Estos diagramas fueron elaborados con la herramienta de modelado [StarUML](https://staruml.io/download). Puedes encontrar el archivo fuente de los diagramas de clases en este [enlace](https://1drv.ms/u/s!ArdZQlTovHwona0-7LgmMKMPcXOr8Q?e=395kiZ).
 
 ### Celdas
 <img width=600px src="https://drive.google.com/uc?export=view&id=1qzqAcG5gLFjApVHK7tVw-_JnxpC-n05R" alt="Diagrama de clases del paquete celdas">
@@ -23,4 +24,4 @@ Puedes encontrar los requerimientos en este [enlace](https://docs.google.com/doc
 ## Diagramas de secuencias
 Estos diagramas fueron elaborados con ayuda de la herramienta [sequencediagram.org](https://sequencediagram.org/), el texto plano del flujo seguido se encuentra disponible en este [enlace](https://1drv.ms/u/s!ArdZQlTovHwona1d2iIKOdSRLTBT7w?e=MZ8bJu).
 
-Para observar los diagramas tendrás que copiar el texto de los archivos del enlace anterior y pegarlos en el editor de texto de la herramienta mencionada anteriormente.
+Para observar los diagramas tendrás que copiar el texto de los archivos del enlace anterior y pegarlos en el editor de texto de la herramienta mencionada anteriormente. O sí lo prefieres, puedes ver los diagramas en este [vínculo](https://1drv.ms/u/s!ArdZQlTovHwona0K3b4NlsahlitORQ?e=SwBs3M).
