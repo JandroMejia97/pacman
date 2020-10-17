@@ -3,9 +3,9 @@ package casillas;
 import java.util.*;
 
 /**
- * Especificación de una celda, por la cual no se pueden
+ * Especificacion de una celda, por la cual no se pueden
  * desplazar los personajes
- * @author Carlos Alejandro Hernández Mejía
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public class Obstaculo extends Celda {
 

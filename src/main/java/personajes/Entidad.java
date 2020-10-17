@@ -3,16 +3,16 @@ package personajes;
 import java.util.*;
 
 /**
- * Clase que modela las características y el comportamiento general de una Entidad que puede ser representada visualmente sobre el Tablero
- * @author Carlos Alejandro Hernández Mejía
+ * Clase que modela las caracteristicas y el comportamiento general de una Entidad que puede ser representada visualmente sobre el Tablero
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public abstract class Entidad {
 
 
     /**
-     * Tamaño de la Entidad
+     * Dimension de la Entidad
      */
-    private int tamaño;
+    private int dimension;
 
     /**
      * Color de la entidad
@@ -33,10 +33,10 @@ public abstract class Entidad {
     /**
      * Constructor
      * @param color Color de la Entidad
-     * @param tamaño Tamaño de la Entidad
+     * @param dimension Dimension de la Entidad
 
      */
-    public Entidad(String color, int tamaño) {
+    public Entidad(String color, int dimension) {
         // TODO implement here
        
     }
@@ -49,12 +49,12 @@ public abstract class Entidad {
        
     }
 
-    public int getTamaño() {
-        return this.tamaño;
+    public int getDimension() {
+        return this.dimension;
     }
 
-    public void setTamaño(int tamaño) {
-        this.tamaño = tamaño;
+    public void setDimension(int dimension) {
+        this.dimension = dimension;
     }
 
     public String getColor() {

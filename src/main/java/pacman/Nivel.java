@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * Clase que representa cada uno de los niveles del juego
- * @author Carlos Alejandro Hernández Mejía
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public class Nivel {
 
@@ -30,7 +30,7 @@ public class Nivel {
     }
 
     /**
-     * Constructor con parámetros
+     * Constructor con parametros
      * @param num Numero del nivel
      * @param vel Velocidad base
      */

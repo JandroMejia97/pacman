@@ -5,8 +5,8 @@ import java.util.*;
 import personajes.Direccion;
 
 /**
- * Blinky, el “perseguidor”, es una especificación de un Fantasma, que tiene una estrategia específica para atrapar a Pacman
- * @author Carlos Alejandro Hernández Mejía
+ * Blinky, el "perseguidor", es una especificacion de un Fantasma, que tiene una estrategia especifica para atrapar a Pacman
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public class Blinky extends Fantasma {
 
@@ -18,7 +18,7 @@ public class Blinky extends Fantasma {
     }
 
     /**
-     * En modo persecución tiene como casillero objetivo la posición actual de Pacman
+     * En modo persecucion tiene como casillero objetivo la posicion actual de Pacman
      * @param posPacman Posicion de Pacman
      */
     @Override

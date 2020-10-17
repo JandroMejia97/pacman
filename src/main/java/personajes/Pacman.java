@@ -3,8 +3,8 @@ package personajes;
 import java.util.*;
 
 /**
- * Especificación de un personaje, en este caso, el personaje principal del juego,  quien se mueve por un tablero rectangular de NxM casilleros y va comiendo a su paso pequeñas bolitas que hacen sumar cada una 10 puntos al jugador y también puede comer fruta, que suma 30 puntos al jugador y ésta última acción además “asusta” a sus perseguidores (fantasmas), haciéndolos retroceder.
- * @author Carlos Alejandro Hernández Mejía
+ * Especificacion de un personaje, en este caso, el personaje principal del juego,  quien se mueve por un tablero rectangular de NxM casilleros y va comiendo a su paso pequeñas bolitas que hacen sumar cada una 10 puntos al jugador y también puede comer fruta, que suma 30 puntos al jugador y ésta última accion ademas "asusta" a sus perseguidores (fantasmas), haciéndolos retroceder.
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public class Pacman extends Personaje {
 
@@ -37,7 +37,7 @@ public class Pacman extends Personaje {
 
     /**
      * Se ejecuta para rotar a Pacman.
-     * @param angulo Angulo en el que se rotará a Pacman, su valor absoluto debe estar entre 0 y 180.
+     * @param angulo Angulo en el que se rotara a Pacman, su valor absoluto debe estar entre 0 y 180.
      */
     protected void rotar(int angulo) {
         // TODO implement here
@@ -54,9 +54,9 @@ public class Pacman extends Personaje {
     }
 
     /**
-     * Calcula el angulo de rotación necesario para que Pacman se mueva en la dirección indicada.
-     * @param direccion Dirección en la que se moverá Pacman
-     * @return Angulo de rotación, entre -180 y 180, además, es múltiplo de 90.
+     * Calcula el angulo de rotacion necesario para que Pacman se mueva en la direccion indicada.
+     * @param direccion Direccion en la que se movera Pacman
+     * @return Angulo de rotacion, entre -180 y 180, ademas, es múltiplo de 90.
      */
     protected int calcularRotacion(Direccion direccion) {
         // TODO implement here

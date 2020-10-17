@@ -6,8 +6,8 @@ import java.util.*;
 import personajes.Entidad;
 
 /**
- * Clase que modela las características y el comportamiento general de una Celda
- * @author Carlos Alejandro Hernández Mejía
+ * Clase que modela las caracteristicas y el comportamiento general de una Celda
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public abstract class Celda extends Entidad {
 
@@ -17,7 +17,7 @@ public abstract class Celda extends Entidad {
     private boolean esObstaculo;
 
     /**
-     * Posición de la celda en el plano cartesiano.
+     * Posicion de la celda en el plano cartesiano.
      */
     private Posicion posicion;
 

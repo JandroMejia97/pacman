@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * Clase que representa una partida para un nivel determinado
- * @author Carlos Alejandro Hernández Mejía
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public class Partida {
 
@@ -14,7 +14,7 @@ public class Partida {
     private int puntaje = 0;
 
     /**
-     * Nivel en el que se jugó esta partida
+     * Nivel en el que se jugo esta partida
      */
     private Nivel nivel;
 
@@ -30,7 +30,7 @@ public class Partida {
     }
 
     /**
-     * Constructor con parámetros
+     * Constructor con parametros
      * @param nivel 
      */
     public Partida(Nivel nivel) {

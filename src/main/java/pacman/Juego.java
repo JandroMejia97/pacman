@@ -4,13 +4,13 @@ import java.util.*;
 import personajes.Direccion;
 
 /**
- * Clase que controla la interacción entre el Usuario y el Tablero del Juego.
- * @author Carlos Alejandro Hernández Mejía
+ * Clase que controla la interaccion entre el Usuario y el Tablero del Juego.
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public class Juego {
 
     /**
-     * Numero del nivel actual que se está jugando
+     * Numero del nivel actual que se esta jugando
      */
     private int nivelActual;
 
@@ -79,7 +79,7 @@ public class Juego {
 
     /**
      * Obtiene Puntaje el puntaje maximo obtenido
-     * @return     
+     * @return Puntaje obtenido
      */
     public int obtenerMaxPuntaje() {
         // TODO implement here
@@ -96,8 +96,8 @@ public class Juego {
     }
 
     /**
-     * Jugador Jugador actual actual
-     * @return
+     * Recupera el Jugador actual
+     * @return Jugador actual 
      */
     private Jugador obtenerJugadorActual() {
         // TODO implement here
@@ -105,8 +105,8 @@ public class Juego {
     }
 
     /**
-     * Puntaje puntaje del jugador actual
-     * @return     
+     * Puntaje del jugador actual
+     * @return Puntaje del jugador actual 
      */
     public int obtenerPuntajeJugadorActual() {
         // TODO implement here
@@ -114,9 +114,9 @@ public class Juego {
     }
 
     /**
-     * Busca el jugador indicado por el alias pasado como parámetro
-     * @param  Jugador encontradoalias a buscar
-     * @return
+     * Busca el jugador indicado por el alias pasado como parametro
+     * @param  alias a buscar
+     * @return Jugador encontrado
      */
     private Jugador buscarJugador(String alias) {
         // TODO implement here
@@ -124,8 +124,8 @@ public class Juego {
     }
 
     /**
-     * Jugador Jugador máximo puntaje que ha obtenido el máximo puntaje
-     
+     * Jugador que ha obtenido el maximo puntaje
+     * @return Jugador
      */
     public Jugador obtenerJugadorMaxPuntaje() {
         // TODO implement here
@@ -133,7 +133,7 @@ public class Juego {
     }
 
     /**
-     * Busca un jugador y retorna su pu
+     * Busca un jugador y retorna su puntaje
      * @param alias del jugador
      * @return puntaje del jugador solicitado
      */
@@ -141,12 +141,6 @@ public class Juego {
         // TODO implement here
         return 0;
     }
-
-    /** Direccion en la que se mueve Pacman
-   
-     */
-       
-    
 
     /**
      * Recupera el nivel solicitado

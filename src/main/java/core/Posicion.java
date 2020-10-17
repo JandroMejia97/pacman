@@ -3,8 +3,8 @@ package core;
 import java.util.*;
 
 /**
- * Posición sobre el plano cartesiano
- * @author Carlos Alejandro Hernández Mejía
+ * Posicion sobre el plano cartesiano
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public class Posicion {
     /**
@@ -24,7 +24,7 @@ public class Posicion {
     }
 
     /**
-     * Posición sobre el plano cartesiano
+     * Posicion sobre el plano cartesiano
      * @param x Coordenada sobre el eje X
      * @param y Coordenada sobre el eje Y
      */

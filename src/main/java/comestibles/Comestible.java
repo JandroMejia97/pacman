@@ -4,8 +4,8 @@ import java.util.*;
 import personajes.Entidad;
 
 /**
- * Clase que modela las características y el comportamiento general de un Comestible
- * @author Carlos Alejandro Hernández Mejía
+ * Clase que modela las caracteristicas y el comportamiento general de un Comestible
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public abstract class Comestible extends Entidad {
 

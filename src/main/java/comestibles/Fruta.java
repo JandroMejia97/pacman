@@ -3,8 +3,8 @@ package comestibles;
 import java.util.*;
 
 /**
- * Especificación de un comestible, su consumo tiene un efecto secundario sobre los Fantasmas.
- * @author Carlos Alejandro Hernández Mejía
+ * Especificacion de un comestible, su consumo tiene un efecto secundario sobre los Fantasmas.
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public class Fruta extends Comestible {
     /**

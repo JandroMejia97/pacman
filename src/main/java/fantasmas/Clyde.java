@@ -6,8 +6,8 @@ import java.util.*;
 import personajes.Direccion;
 
 /**
- * Clyde, “el que finge ignorancia” es una especificación de un Fantasma, que tiene una estrategia específica para atrapar a Pacman
- * @author Carlos Alejandro Hernández Mejía
+ * Clyde, "el que finge ignorancia" es una especificacion de un Fantasma, que tiene una estrategia especifica para atrapar a Pacman
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public class Clyde extends Fantasma {
     
@@ -20,8 +20,8 @@ public class Clyde extends Fantasma {
     }
 
     /**
-     * Se ejecuta haCelda objetivosta que la tercera parte de los puntos han sido consumidos
-     * @param celda 
+     * Se ejecuta hasta que la tercera parte de los puntos han sido consumidos
+     * @param celda objetivo  
      */
     public void salirDeCasa(Posicion celda) {
         // TODO implement here
@@ -29,8 +29,8 @@ public class Clyde extends Fantasma {
     }   
 
     /**
-     * Es un método abstracto, ya que cada especificación de un Fantasma implementa su propia estrategia para encontrar a Pacman.
-     * @return Retorna la dirección en la cual se moverá el fantasma
+     * Es un método abstracto, ya que cada especificacion de un Fantasma implementa su propia estrategia para encontrar a Pacman.
+     * @return Retorna la direccion en la cual se movera el fantasma
      */
     public Direccion encontrarAPacman(Celda posPacman) {
         // TODO implement here

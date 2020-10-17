@@ -7,23 +7,23 @@ import personajes.Direccion;
 import personajes.Personaje;
 
 /**
- * Clase que modela las características y el comportamiento general de un Fantasma
- * @author Carlos Alejandro Hernández Mejía
+ * Clase que modela las caracteristicas y el comportamiento general de un Fantasma
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public abstract class Fantasma extends Personaje {
 
     /**
-     * Atributo que indica el tiempo que el Fantasma permanecerá en el Modo ASUSTADO
+     * Atributo que indica el tiempo que el Fantasma permanecera en el Modo ASUSTADO
      */
     private int tiempoAsustado;
 
     /**
-     * Atributo que indica el tiempo que el Fantasma permanecerá en el Modo DISPERSION
+     * Atributo que indica el tiempo que el Fantasma permanecera en el Modo DISPERSION
      */
     private int tiempoDispersion;
 
     /**
-     * Celda objetivo a la que se moverá el fanstama
+     * Celda objetivo a la que se movera el fanstama
      */
     private Celda celdaObjetivo;
 
@@ -40,8 +40,8 @@ public abstract class Fantasma extends Personaje {
 
     /**
      * Constructor
-     * @param tAsustado Tiempo que el Fantasma permanecerá en el Modo ASUSTADO
-     * @param tDispersion Tiempo que el Fantasma permanecerá en el Modo ASUSTADO
+     * @param tAsustado Tiempo que el Fantasma permanecera en el Modo ASUSTADO
+     * @param tDispersion Tiempo que el Fantasma permanecera en el Modo ASUSTADO
      */
     public Fantasma(int tAsustado, int tDispersion) {
         // TODO implement here
@@ -57,7 +57,7 @@ public abstract class Fantasma extends Personaje {
     }
 
     /**
-     * Este compartamiento se realiza pasados X segundos desde que PACMAN comió la fruta.
+     * Este compartamiento se realiza pasados X segundos desde que PACMAN comio la fruta.
      */
     public void dispersar() {
         // TODO implement here
@@ -82,14 +82,14 @@ public abstract class Fantasma extends Personaje {
 
     /**
      * Método abstracto que se ejecuta para rotar al Fantasma.
-     * @param angulo Angulo en el que se rotará al personaje, entre 0 y 90 grados (valor absoluto=.
+     * @param angulo Angulo en el que se rotara al personaje, entre 0 y 90 grados (valor absoluto=.
      */
     protected void rotar(int angulo) {
         // TODO implement here
     }
 
     /**
-     * Este método se ejecuta cuando el Fantasma está en modo "ASUSTADO".
+     * Este método se ejecuta cuando el Fantasma esta en modo "ASUSTADO".
      * @return Retorna la esquina seleccionada de forma aleatoria.
      */
     protected Posicion seleccionarEsquinaAleatoria() {
@@ -98,15 +98,15 @@ public abstract class Fantasma extends Personaje {
     }
 
     /**
-     * Es un método abstracto, ya que cada especificación de un Fantasma implementa su propia estrategia para encontrar a Pacman.
+     * Es un método abstracto, ya que cada especificacion de un Fantasma implementa su propia estrategia para encontrar a Pacman.
      * @param posicion Celda destino
-     * @return Retorna la dirección en la cual se moverá el fantasma
+     * @return Retorna la direccion en la cual se movera el fantasma
      */
     public abstract Direccion encontrarAPacman(Celda posicion);
 
     /**
      * @param destino Celda a la que se desea llegar
-     * @return Retorna la direccion en la que se moverá
+     * @return Retorna la direccion en la que se movera
      */
     public Direccion calcularDireccion(Celda destino) {
         // TODO implement here
@@ -114,9 +114,9 @@ public abstract class Fantasma extends Personaje {
     }
 
     /**
-     * Calcula el angulo de rotación necesario para que el Fantasma se mueva en la dirección indicada (los fantasmas no pueden retroceder)
-     * @param direccion Dirección en la que se moverá el Fantasma
-     * @return Angulo de rotación, entre -90 y 90, además, es múltiplo de 90.
+     * Calcula el angulo de rotacion necesario para que el Fantasma se mueva en la direccion indicada (los fantasmas no pueden retroceder)
+     * @param direccion Direccion en la que se movera el Fantasma
+     * @return Angulo de rotacion, entre -90 y 90, ademas, es múltiplo de 90.
      */
     protected int calcularRotacion(Direccion direccion) {
         // TODO implement here

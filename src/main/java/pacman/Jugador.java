@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * Clase que representa al jugador de la partida
- * @author Carlos Alejandro Hernández Mejía
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public class Jugador {
 
@@ -30,7 +30,7 @@ public class Jugador {
     }
 
     /**
-     * Constructor con parámetros
+     * Constructor con parametros
      * @param alias Indica el nombre del Jugador
      */
     public Jugador(String alias) {
@@ -65,7 +65,7 @@ public class Jugador {
     /**
      * Este método se invoca para finalizar la partida
      * @param estado estado de la partida
-     * @return Partida que se terminó
+     * @return Partida que se termino
      */
     public Partida finalizarPartida(Estado estado) {
         // TODO implement here

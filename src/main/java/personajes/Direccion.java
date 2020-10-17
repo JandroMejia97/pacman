@@ -1,7 +1,7 @@
 package personajes;
 
 /**
- * Enumeración que representa la dirección en la que se mueve Pacman
+ * Enumeracion que representa la direccion en la que se mueve Pacman
  */
 public enum Direccion {
     ARRIBA,

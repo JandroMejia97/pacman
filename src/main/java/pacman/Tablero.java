@@ -11,7 +11,7 @@ import personajes.Personaje;
 
 /**
  * Tablero del juego que contiene todos los objetos que se representan sobre el mismo.
- * @author Carlos Alejandro Hernández Mejía
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public class Tablero {
 
@@ -26,7 +26,7 @@ public class Tablero {
     private int columnas;
 
     /**
-     * Cantidad máxima de puntos que Pacman podrá consumir
+     * Cantidad maxima de puntos que Pacman podra consumir
      */
     private int puntajeMaximo;
 
@@ -72,9 +72,9 @@ public class Tablero {
     }
 
     /**
-     * Constructor con parámetros
-     * @param filas Cantidad de filas que tendrá el tablero
-     * @param columnas Cantidad de columnas que tendrá el tablero
+     * Constructor con parametros
+     * @param filas Cantidad de filas que tendra el tablero
+     * @param columnas Cantidad de columnas que tendra el tablero
      */
     public void Tablero(int filas, int columnas) {
         // TODO implement here
@@ -116,7 +116,7 @@ public class Tablero {
     }
 
     /**
-     * Reinicia el tablero y devuelvo los personajes y demas objetos  a su estado y posición inicial.
+     * Reinicia el tablero y devuelvo los personajes y demas objetos  a su estado y posicion inicial.
      */
     public void reiniciar() {
         // TODO implement here
@@ -146,7 +146,7 @@ public class Tablero {
     }
 
     /**
-     * Metodo que se ejecuta para obtener la posición de Pacman
+     * Metodo que se ejecuta para obtener la posicion de Pacman
      * @return
      */
     private Celda rastrearAPacman() {
@@ -162,7 +162,7 @@ public class Tablero {
     }
 
     /**
-     * Al ejecutarse ubica a los personajes en su posición inicial
+     * Al ejecutarse ubica a los personajes en su posicion inicial
      */
     private void reposicionarPersonajes() {
         // TODO implement here
@@ -178,8 +178,8 @@ public class Tablero {
     }
 
     /**
-     * Se ejecuta cuando Pacman se encuentra un comestible sobre la misma celda y cambia el estado del comestible pasado como parámetro
-     * @param c Comestible que será comido por Pacman
+     * Se ejecuta cuando Pacman se encuentra un comestible sobre la misma celda y cambia el estado del comestible pasado como parametro
+     * @param c Comestible que sera comido por Pacman
      */
     private void comerComestible(Celda c) {
         // TODO implement here
@@ -194,15 +194,15 @@ public class Tablero {
     }
 
     /**
-     * Al ejecutarse le indica a Pacman que se mueva en la dirección pasada como parámetro
-     * @param direccion Dirección en la que se moverá Pacman
+     * Al ejecutarse le indica a Pacman que se mueva en la direccion pasada como parametro
+     * @param direccion Direccion en la que se movera Pacman
      */
     public void moverAPacman(Direccion direccion) {
         // TODO implement here
     }
 
     /**
-     * Se ejecuta cuando Pacman se encuentra con un fantasma en la misma Celda y cambia el estado del Fantasma pasado como parámetro
+     * Se ejecuta cuando Pacman se encuentra con un fantasma en la misma Celda y cambia el estado del Fantasma pasado como parametro
      * @param fantasma Fantasma que fue comido por Pacman
      */
     private void comerFantasma(Fantasma fantasma) {
@@ -212,7 +212,7 @@ public class Tablero {
     /**
      * Metodo que se ejecuta cuando un Personaje hace uso del tunel, pasado desde la celda actual, hacia una celda destino
      * @param p Personaje a teletransportar
-     * @param destino Celda donde aparecerá el personaje
+     * @param destino Celda donde aparecera el personaje
      */
     private void teletransportar(Personaje p, Celda destino) {
         // TODO implement here
@@ -221,7 +221,7 @@ public class Tablero {
     /**
      * Método que determina si Pacman se puede desplazar sobre la celda indicada.
      * @param pacPos Celda sobre la que se ubica Pacman
-     * @return Fantasma con el que colisionó Pacman
+     * @return Fantasma con el que colisiono Pacman
      */
     private Fantasma predecirColision(Celda pacPos) {
         // TODO implement here
@@ -229,10 +229,10 @@ public class Tablero {
     }
 
     /**
-     * Obtiene la celda siguiente dadas la celda actual y la dirección de movimiento.
+     * Obtiene la celda siguiente dadas la celda actual y la direccion de movimiento.
      * @param celActual Celda actual
      * @param dir Direccion de desplazamiento
-     * @return Celda que se encuentra luego de la actual en base a la dirección del desplazamiento
+     * @return Celda que se encuentra luego de la actual en base a la direccion del desplazamiento
      */
     private Celda getSiguienteCelda(Celda celActual, Direccion dir) {
         // TODO implement here

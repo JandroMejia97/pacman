@@ -6,7 +6,7 @@ import java.util.*;
 /**
  * Clase que contiene las caracteristicas y comportamientos
  * generales de un personaje
- * @author Carlos Alejandro Hernández Mejía
+ * @author Carlos Alejandro Hernandez Mejia
  */
 public abstract class Personaje extends Entidad {
 
@@ -60,10 +60,10 @@ public abstract class Personaje extends Entidad {
     }
 
     /**
-     * Constructor que le permite asiganarle una posición al personaje
+     * Constructor que le permite asiganarle una posicion al personaje
      * @param apo Apodo del personaje
      * @param c Color del personaje
-     * @param pos Celda en la que iniciará el personaje
+     * @param pos Celda en la que iniciara el personaje
    
      */
     public Personaje(String apo, String c, Celda pos) {
@@ -80,7 +80,7 @@ public abstract class Personaje extends Entidad {
     }
 
     /**
-     * Lleva al personaje a su posición inicial.
+     * Lleva al personaje a su posicion inicial.
     
      */
     public void reiniciar() {
@@ -102,13 +102,13 @@ public abstract class Personaje extends Entidad {
 
     /**
      * Método abstracto que se ejecuta para rotar al personaje.
-     * @param angulo Angulo en el que se rotará al personaje.
+     * @param angulo Angulo en el que se rotara al personaje.
      */
     protected abstract void rotar(int angulo);
 
     /**
-     * Muestra al personaje en la posición indicada.
-     * @param pos 
+     * Muestra al personaje en la posicion indicada.
+     * @param pos posicion donde apararecera el personaje
      */
     public void aparecer(Celda pos) {
         // TODO implement here
@@ -116,16 +116,16 @@ public abstract class Personaje extends Entidad {
 
     /**
      * Se ejecuta para que el personaje se mueva en la direccion indicada
-     * @param direccion direccion en la que se moverá el personaje
+     * @param direccion direccion en la que se movera el personaje
      */
     public void mover(Direccion direccion) {
         // TODO implement here
     }
 
     /**
-     * Calcula el angulo de rotación necesario para que el personaje se mueva en la dirección indicada.
-     * @param direccion Dirección en la que se moverá el personaje
-     * @return Angulo de rotación, es múltiplo de 90.
+     * Calcula el angulo de rotacion necesario para que el personaje se mueva en la direccion indicada.
+     * @param direccion Direccion en la que se movera el personaje
+     * @return Angulo de rotacion, es múltiplo de 90.
      */
     protected abstract int calcularRotacion(Direccion direccion);
 
